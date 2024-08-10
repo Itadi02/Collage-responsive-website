@@ -254,7 +254,7 @@ function preventCodeOnMobile() {
     const width = window.innerWidth;
 
     // Assuming mobile devices have a screen width of 768px or less
-    if (width <= 450&&width >= 200) {
+    if (width <= 500&&width >= 200) {
         console.log("mobile is detected");
         return; // Stops further code execution
     }
